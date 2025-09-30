@@ -1,0 +1,22 @@
+# Model to use (set via environment variable OPENAI_API_KEY)
+model: gpt-4o-mini
+
+# Socratic phases (customize or reorder)
+phases:
+  - Clarify
+  - Probe Assumptions
+  - Evidence & Methods
+  - Counterexamples
+  - Transfer to Practice
+
+# Require students to include page references like "p. 12"
+require_page_citations: true
+
+# Max turns before suggesting wrap-up
+max_turns: 30
+
+# Equity reminder shown in the UI and included in prompts
+equity_prompt: >-
+  As we go, consider equity: Who benefits or is burdened by the authors' claims? How might
+  recommendations be reframed to center inclusion/belonging (e.g., multilingual learners, students
+  with disabilities, racially/gender-marginalized groups)?

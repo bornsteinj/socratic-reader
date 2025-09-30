@@ -268,4 +268,4 @@ def export_docx() -> bytes:
     doc.add_heading('1) Thesis', level=2)
     doc.add_paragraph(w.get("thesis", ""))
 
-    doc.add_heading('2) Claims + Evidence',
+    doc.add_heading('2) Claims + Evidence', level=2)
